@@ -5,18 +5,18 @@ fun main() {
      println("\n---------------------Punto 1----------------------\n")
     println("Ingresa un numero")
     val numeroFibonacci = readln().toInt()
-    println(fibonacci(numeroFibonacci))
+    println("Equivalente en la secuencia fibonacci es: ${fibonacci(numeroFibonacci)}")
 
 
     println("\n---------------------Punto 2----------------------\n")
     println("Ingrese los grados Celsius para convertir a farenheit")
     val gradosCelsius = readln().toDouble()
-    println(ConversionTemperatura.celsiusToFarenheit(gradosCelsius))
+    println("Grados Farenheit: ${ConversionTemperatura.celsiusToFarenheit(gradosCelsius)}")
 
     println("Ingrese los grados farenheit  para convertir a Celsius")
     val gradosFarenheit= readln().toDouble()
-    println(ConversionTemperatura.farenheitToCelsius(gradosFarenheit))
-    println("-------------------------------------------")
+    println("Grados Celsius: ${ConversionTemperatura.farenheitToCelsius(gradosFarenheit)}")
+    println("\n---------------------Punto 2----------------------\n")
 //    val listado = arrayOf(45, 25, 1)
 //    ordenarLista(listado)
 
